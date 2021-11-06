@@ -1,4 +1,4 @@
 # frontend-mentor
-frontend.io mentor challenges
+frontendmentor challenges
 
 
