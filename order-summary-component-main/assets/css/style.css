@@ -1,0 +1,118 @@
+html {
+    font-family: 'Red Hat Display', sans-serif;
+    margin: 0;
+    background: hsl(225, 100%, 94%) url("../images/pattern-background-desktop.svg") no-repeat;
+    background-size: 100%;
+}
+
+
+h1, p {
+    text-align: center;
+}
+
+h1 {padding-top: 20px;}
+
+p {
+    font-size: 16px;
+    color: hsl(224, 23%, 55%);
+    padding: 0 10%;
+}
+
+#flex-container {
+    display: flex;
+    justify-content: center;
+}
+
+#card-container {
+    width: 450px;
+    height: 700px;
+    margin: 10vh 0;
+    border-radius: 5%;
+    background: white;
+}
+
+#image-container {
+    height: 33%;
+    background-image: url(../images/illustration-hero.svg);
+    background-size: cover;
+    border-radius: 5% 5% 0 0;
+}
+
+#plan-container {
+    width: 80%;
+    border-radius: 5%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    background-color: hsl(224, 100%, 98%);
+    padding: 20px 5px;
+}
+
+#icon {
+    width: 20%;
+    background: url(../images/icon-music.svg) no-repeat center;
+}
+
+#plan {
+    width: 60%;
+    height: 20%;
+}
+
+#plan p, h4{
+    text-align: left;
+    margin: 0;
+}
+
+#plan p {
+    padding-left: 0;
+}
+
+#change {
+    width: 20%;
+    margin: auto;
+}
+
+#payment, #cancel {
+    border: none;
+    cursor: pointer;
+}
+#payment {
+    color: white;
+    width: 80%;
+    margin: 30px 10%;
+    padding: 15px;
+    border-radius: 15px;
+    background-color: hsl(245, 75%, 52%);
+    box-shadow: 0 15px 5px hsla(224, 23%, 55%, 0.2);
+    cursor: pointer;
+}
+
+#cancel {
+    width: 30%;
+    margin: 0 35%;
+    background-color: white;
+}
+
+@media screen and (max-width: 490px){
+    #card-container {
+        width: 380px;
+    }
+}
+
+@media screen and (max-width: 425px){
+    #card-container {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 375px){
+    #card-container {
+        width: 340px;
+       
+    }
+    
+    html {
+        background: url("../images/pattern-background-mobile.svg") no-repeat;
+    }
+
+}
