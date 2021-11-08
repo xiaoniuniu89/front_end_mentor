@@ -20,7 +20,7 @@ h1 {
 
 #main-container {
     width: 90vw;
-    height: 60vh;
+    height: 58vh;
     margin: 10% auto ;
 }
 
@@ -178,3 +178,21 @@ h1 {
        display: none;
    }
 }
+
+@media screen and (max-height: 950px){
+    
+   #main-container {
+       height: 65vh;
+   }
+}
+
+@media screen and (max-height: 850px){
+    
+    #main-container {
+        height: 75vh;
+    }
+ 
+    .attribution {
+        bottom: 0px;
+    }
+ }
