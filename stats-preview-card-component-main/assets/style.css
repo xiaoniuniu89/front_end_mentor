@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    overflow: hidden;
+}
+
 body {
     background-color: hsl(233, 47%, 7%);
 }
@@ -20,7 +24,7 @@ h1 {
 #main-container {
     width: 90vw;
     height: 420px;
-    margin: 12.5% auto ;
+    margin: 12.5% auto 10%;
 }
 
 .flex-container {

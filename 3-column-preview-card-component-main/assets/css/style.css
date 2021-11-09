@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: hsl(0, 0%, 95%);
+}
+
+body {
+    Font-size: 15px
+}
+
+h1 {
+    font-family: 'Big Shoulders Display', cursive;
+    color: hsl(0, 0%, 95%);
+    padding-bottom: 12.5%;
+    text-transform: uppercase;
+}
+
+p {
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    padding-bottom: 10%;
+    line-height: 1.5em;
+}
+
+#flex-wrapper {
+    margin: 15% 1%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card {
+    width: 80%;
+    padding: 10% 10%;
+}
+
+#card-1 {
+    background-color: hsl(31, 77%, 52%);
+    border-radius: 2% 2% 0 0;
+}
+
+#card-2 {
+    background-color: hsl(184, 100%, 22%);
+}
+
+#card-3 {
+    background-color: hsl(179, 100%, 13%);
+    border-radius: 0 0 2% 2%;
+}
+
+#icon-1 {
+    background-image: url('../images/icon-sedans.svg');
+}
+
+#icon-2 {
+    background-image: url('../images/icon-suvs.svg');
+}
+
+#icon-3 {
+    background-image: url('../images/icon-luxury.svg');
+}
+
+.icon {
+    background-repeat: no-repeat;
+    width: 20%;
+    padding: 15% 0;
+}
+
+.button {
+    padding: .9em 1.8em;
+    border: 2px solid hsl(0, 0%, 95%);
+    border-radius: 24px;
+    background-color: hsl(0, 0%, 95%);
+    cursor: pointer;
+}
+
+#button-1 {
+    color: hsl(31, 77%, 52%)
+}
+
+#button-1:hover {
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+}
+
+#button-2 {
+    color: hsl(184, 100%, 22%)
+}
+
+#button-2:hover {
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+}
+
+#button-3 {
+    color: hsl(179, 100%, 13%);
+}
+
+#button-3:hover {
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+}
+
+
+
+@media screen and (min-width: 900px){
+    #flex-wrapper {
+        flex-direction: row;
+        align-items: initial;
+        justify-content: center;
+        margin: 12.5% 15% 10%;
+    }
+    #card-1 {
+        border-radius: 2% 0 0 2%;
+    }
+    #card-3 {
+        border-radius: 0 2% 2% 0;
+    }
+
+    .card {
+        width: 33%;
+        padding: 5%;
+    }
+
+    p {
+        padding-bottom: 30%;
+    }
+
+    
+}
