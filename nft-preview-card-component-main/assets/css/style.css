@@ -16,12 +16,11 @@ body {
 
 
 .container {
-    width: 90%;
+    width: 90%; 
     background: hsl(216, 50%, 16%);
-    margin: 5em auto;
+    margin:  6em auto;
     padding: 1.4em; border-radius: 15px;
     max-width: 365px;
-    position: relative;
 }
 
 .card-hero {
