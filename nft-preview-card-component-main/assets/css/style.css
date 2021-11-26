@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit', sans-serif;
+}
+
+p {
+    font-size: 18px;
+}
+
+body {
+    background: hsl(217, 54%, 11%);
+
+}
+
+
+.container {
+    width: 90%;
+    background: hsl(216, 50%, 16%);
+    margin: 5em auto;
+    padding: 1.4em; border-radius: 15px;
+    max-width: 365px;
+    position: relative;
+}
+
+.card-hero {
+    width: 100%; height: 18.5em; background-repeat: no-repeat;
+    background-position: center;
+    background-image: url('../images/image-equilibrium.jpg');
+    background-size: 100%;
+    border-radius: 15px; 
+    position: relative;
+}
+.hover-icon {
+    
+    position: absolute;
+    width: 100%; height: 100%;
+    background-image: url('../images/icon-view.svg');
+    background-repeat: no-repeat; background-position: center;
+    cursor: pointer; opacity: 0;
+}
+
+.hover-icon:hover {
+   opacity: 1;
+   background-color: hsla(178, 100%, 50%, 0.5);
+   border-radius: 15px; 
+
+}
+
+.card-title {
+    font-size: 1.5rem;
+    color: hsl(0, 0%, 100%);
+    padding: 1em 0;
+}
+
+.card-paragraph {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+    padding-bottom: 1em;
+    line-height: 1.5em;
+}
+
+.stats {
+    display: flex; justify-content: space-between;
+    width: 100%; padding-bottom: 1em; 
+}
+
+.eth-container, .time-container{
+    display: flex;
+}
+
+.eth-icon {
+    background-image: url('../images/icon-ethereum.svg');
+    background-repeat: no-repeat;
+    width: 10px; margin-right: .5em;
+}
+
+.eth-text {
+    color: hsl(178, 100%, 50%);
+    font-weight: 600;
+}
+
+
+.time-icon {
+    background-image: url('../images/icon-clock.svg');
+    width: 20px; margin-right: .5em;
+    background-repeat: no-repeat;
+    background-size: 1.2em;
+}
+
+.time-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 300;
+}
+
+.creator-info {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-top: .5px solid hsla(215, 51%, 70%, .3);
+    padding: 1em 0 .5em 0;
+}
+
+.profile-pic {
+    background-image: url('../images/image-avatar.png');
+    background-size: contain;
+    width: 40px; height: 40px;
+    border: 1.5px solid wheat; border-radius: 100px;
+    margin-right: 1em;
+}
+
+.creator-info-text {
+    color: hsl(215, 51%, 70%);
+    font-weight: 400;
+}
+
+.name {
+    color: white;
+}
+
+.card-title, .name {
+    cursor: pointer;
+}
+
+.card-title:hover, .name:hover {
+    color: hsl(178, 100%, 50%);
+}
+
+
+@media screen and (min-width: 500px){
+    .container {
+        margin: 10em auto;
+    }
+}
