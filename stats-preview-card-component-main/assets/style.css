@@ -22,7 +22,8 @@ h1 {
 
 
 #main-container {
-    width: 90vw;
+    width: 70%;
+    max-width: 1150px;
     height: 420px;
     margin: 12.5% auto 10%;
 }
